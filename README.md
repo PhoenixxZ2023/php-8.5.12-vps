@@ -46,7 +46,7 @@ Conéctate a tu VPS con un usuario con privilegios `sudo` o como `root` y ejecut
 ### Opción A: Instalación rápida mediante Gestor de Paquetes (`install.sh`)
 
 ```bash
-curl -sSL [https://raw.githubusercontent.com/golbert19/php-8.5.12-vps/main/install.sh](https://raw.githubusercontent.com/PhoenixxZ2023/php-8.5.12-vps/main/install.sh) | sudo bash
+curl -sSL [https://raw.githubusercontent.com/PhoenixxZ2023/php-8.5.12-vps/main/install.sh](https://raw.githubusercontent.com/PhoenixxZ2023/php-8.5.12-vps/main/install.sh) | sudo bash
 ```
 
 ### Opción B: Compilación exacta desde el Código Fuente (`compile-php-8.5.12.sh`)

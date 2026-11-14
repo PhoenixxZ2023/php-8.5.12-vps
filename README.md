@@ -46,13 +46,13 @@ Conéctate a tu VPS con un usuario con privilegios `sudo` o como `root` y ejecut
 ### Opción A: Instalación rápida mediante Gestor de Paquetes (`install.sh`)
 
 ```bash
-curl -sSL [https://raw.githubusercontent.com/golbert19/php-8.5.12-vps/main/install.sh](https://raw.githubusercontent.com/golbert19/php-8.5.12-vps/main/install.sh) | sudo bash
+curl -sSL [https://raw.githubusercontent.com/golbert19/php-8.5.12-vps/main/install.sh](https://raw.githubusercontent.com/PhoenixxZ2023/php-8.5.12-vps/main/install.sh) | sudo bash
 ```
 
 ### Opción B: Compilación exacta desde el Código Fuente (`compile-php-8.5.12.sh`)
 
 ```bash
-curl -sSL [https://raw.githubusercontent.com/golbert19/php-8.5.12-vps/main/compile-php-8.5.12.sh](https://raw.githubusercontent.com/golbert19/php-8.5.12-vps/main/compile-php-8.5.12.sh) | sudo bash
+curl -sSL [https://raw.githubusercontent.com/PhoenixxZ2023/php-8.5.12-vps/main/compile-php-8.5.12.sh](https://raw.githubusercontent.com/PhoenixxZ2023/php-8.5.12-vps/main/compile-php-8.5.12.sh) | sudo bash
 ```
 
 ### Opción C: Clonar el repositorio manualmente (Auditoría previa)
@@ -60,7 +60,7 @@ curl -sSL [https://raw.githubusercontent.com/golbert19/php-8.5.12-vps/main/compi
 Si prefieres inspeccionar o personalizar los scripts antes de ejecutarlos:
 
 ```bash
-git clone [https://github.com/golbert19/php-8.5.12-vps.git](https://github.com/golbert19/php-8.5.12-vps.git)
+git clone [https://github.com/PhoenixxZ2023/php-8.5.12-vps.git](https://github.com/PhoenixxZ2023/php-8.5.12-vps.git)
 cd php-8.5.12-vps
 chmod +x install.sh compile-php-8.5.12.sh
 
@@ -83,7 +83,7 @@ Para automatizar el despliegue en múltiples servidores desde la aplicación mó
 3. Asigna un nombre descriptivo (ej. `Deploy PHP 8.5.12 - Fuente`).
 4. En el bloque **Script**, pega el comando `curl` de la opción que utilices habitualmente:
    ```bash
-   curl -sSL [https://raw.githubusercontent.com/golbert19/php-8.5.12-vps/main/compile-php-8.5.12.sh](https://raw.githubusercontent.com/golbert19/php-8.5.12-vps/main/compile-php-8.5.12.sh) | sudo bash
+   curl -sSL [https://raw.githubusercontent.com/PhoenixxZ2023/php-8.5.12-vps/main/compile-php-8.5.12.sh](https://raw.githubusercontent.com/PhoenixxZ2023/php-8.5.12-vps/main/compile-php-8.5.12.sh) | sudo bash
    ```
 5. Guarda los cambios. Al abrir cualquier conexión SSH hacia tu VPS, selecciona el ícono de **Snippets** para lanzar la instalación automáticamente.
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ==============================================================================
 # Script de Instalación y Cambio a PHP 8.5.12 para VPS
-# Repositorio: https://github.com/golbert19/php-8.5.12-vps
+# Repositorio: https://github.com/PhoenixxZ2023/php-8.5.12-vps
 # ==============================================================================
 
 set -e
